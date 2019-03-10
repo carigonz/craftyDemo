@@ -1,0 +1,202 @@
+
+
+/*reseteos generales*/
+
+*{
+  box-sizing: border-box;
+}
+ul, ol {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*css general*/
+body {
+  background-image: url("../img/bg-2.png");
+  font-family:monospace;
+}
+header {
+  overflow: hidden;
+  background-color: red;
+  color: white;
+  text-transform: uppercase;
+
+}
+.main {
+  width: 1140px;
+  margin:0 auto;
+}
+.logo {
+  float:left;
+  padding:15px 10px 10px 10px;
+}
+.menu {
+  float:left;
+  margin:0 auto;
+}
+.loginmenu {
+  float:right;
+}
+nav li {
+  float:left;
+  margin: 0 auto;
+  padding: 10px;
+  color: #fff;
+}
+ul {
+  overflow: hidden;
+}
+
+/*cuerpo*/
+.principal {
+
+}
+.products {
+  width:800px;
+  float: left;
+  margin:auto;
+  overflow: hidden;
+  background-color: #fff;
+}
+.prod1 {
+  width: 380px;
+  float:left;
+  margin: 10px;
+}
+.vermas {
+  color: #fff;
+  background-color: red;
+  padding: 10px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.prod2 {
+  width: 380px;
+  float:left;
+  margin:10px;
+}
+.prod3 {
+  width: 380px;
+  float:left;
+  margin:10px;
+}
+.columnhome {
+  width: 320px;
+  overflow: hidden;
+  float:right;
+}
+.seccion1{
+  overflow: hidden;
+}
+.seccion1 h2 {
+  background-color: #fff;
+  padding:10px;
+  width: 320px;
+  margin:0;
+  border: #92aad9 1px solid;
+  float:left;
+  overflow: hidden;
+}
+.tutorial{
+  overflow: hidden;
+}
+.tuto1{
+  background-color: #fff;
+  float: left;
+  overflow:hidden;
+  width: 320px;
+  border: #92aad9 1px solid;
+  margin: 1px 0;
+}
+.fotoreparacion{
+  float:left;
+  padding:8px;
+}
+.titulotutorial{
+  margin: 38px 0;
+}
+.seccion2{
+  overflow: hidden;
+}
+.seccion2 h2 {
+  background-color: #fff;
+  padding:10px;
+  width: 320px;
+  margin:0;
+  border: #92aad9 1px solid;
+  float:left;
+  overflow: hidden;
+}
+.publicidad{
+  background-color: #fff;
+  overflow: hidden;
+  border: #92aad9 1px solid;
+}
+.publi1{
+  float: left;
+  padding: 10px;
+}
+
+/*estilos login*/
+
+.login{
+  overflow: hidden;
+  margin:auto;
+  width:350px;
+}
+h1 {
+  text-align: center;
+}
+.formlogin{
+  text-align: left;
+  width: 350px;
+}
+input{
+  width: 348px;
+}
+.remember{
+  float:right;
+  width:350px;
+  text-align: right;
+  font-size: 16px;
+}
+.remember input{
+  width: 13px;
+}
+#button{
+  background-color: #127d99;
+  border-radius: 6px;
+  border-color: #0c60dd;
+  padding: 4px 10px;
+  color: #fff;
+}
+.registro{
+  width: 350px;
+  text-align:left;
+  margin:0 auto;
+}
+.registro h1{
+  text-transform: uppercase;
+}
+.radiobut input{
+  width:13px;
+}
+.check input{
+  width: 13px;
+}
+textarea{
+  width: 350px;
+}
+
+#terms{
+  width: 13px;
+}
+.butgen {
+  width: inherit;
+}

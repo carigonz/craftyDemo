@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title></title>
+  </head>
+  <body>
+    <div class="main">
+      <header>
+        <div class="logo">
+          <a href="home.html"><img src="img/logo.png" alt="logo"></a>
+        </div>
+        <nav class="menu">
+          <ul>
+            <li><a href="#">Smarthphone</a></li>
+            <li><a href="#">Tablets</a></li>
+            <li><a href="#">Computadoras</a></li>
+          </ul>
+        </nav>
+        <nav class="loginmenu">
+          <ul>
+            <li><a href="login.html">login</a></li>
+            <li><a href="registro.html">Registrarme</a></li>
+          </ul>
+        </nav>
+      </header>
+      <br>
+      <br>
+      <div class="registro">
+        <h1>registrate</h1>
+        <form class="registrate" action="index.html" method="post">
+          <b><label for="nombre">Nombre</label><br>
+          <input type="text" name="nombre" id="nombre" required placeholder="Ingrese su nombre completo." value=""><br><br>
+          <label for="email">Email</label><br>
+          <input type="email" name="apellido" id="email" placeholder="email@id.com" value="" required><br><br>
+          <label for="pass">Contraseña</label><br></b>
+          <input type="password" name="pass" required id="pass" placeholder="Password" value=""><br><br>
+          <h2>País de nacimiento</h2>
+          <select required name="pais">
+            <option value selected>Por favor elija un país</option>
+            <option value="arg">Argentina</option>
+            <option value="chi">Chile</option>
+            <option value="uru">Uruguar</option>
+            <option value="per">Perú</option>
+          </select><br><br>
+          <h2>Género</h2>
+          <div class="radiobut">
+            <input type="radio" name="genero" value="f">Femenino
+            <input type="radio" name="genero" value="m">Masculino
+            <input type="radio" name="genero" value="nb">Prefiero no decirlo
+          </div><br><br>
+          <h2>Hobbies</h2>
+          <div class="check">
+            <input type="checkbox" name="hobbies" value="gui">Guitarra
+            <input type="checkbox" name="hobbies" value="fut">Fútbol
+            <input type="checkbox" name="hobbies" value="te">Tenis
+            <input type="checkbox" name="hobbies" value="pr">Programación
+          </div><br><br>
+          <h2>Dejanos tu comentario</h2>
+          <textarea name="comment" rows="8" cols="80"></textarea>
+          <br><input id="terms" type="checkbox" name="termycond" value="agree">Acepto los términos y condiciones.<br><br>
+          <input class="butgen" type="submit" name="Registrarme" value="Registrarme">
+          <input class="butgen" type="reset" name="Cancelar" value="Cancelar"><br><br>
+          <button id="button" type="submit" name="">Registrarme</button>
+          <button id="button" type="reset" name="">Cancelar</button>
+        </form>
+      </div>
+    </div>
+
+  </body>
+</html>
